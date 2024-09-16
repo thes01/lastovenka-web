@@ -99,7 +99,7 @@ const siteConfig: SiteConfig = {
         title: '<titulek>',
         text: "Vítejte na stránkách hudebního projektu **Laštověnka**",
         image: {
-            src: '/hero.jpg',
+            src: '/swallows.jpg',
             alt: 'A person sitting at a desk in front of a computer'
         },
         // actions: [
