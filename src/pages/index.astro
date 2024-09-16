@@ -1,6 +1,4 @@
 ---
-import { marked } from 'marked';
-import Button from './Button.astro';
 import siteConfig from '../data/site-config';
 // todo: remove when tailwind is set up globally
 import '../styles/global.css';
@@ -8,6 +6,10 @@ import '../styles/global.css';
 const hero = siteConfig.hero;
 ---
 
-<figure class="fixed top-0 left-0 w-screen h-screen flex justify-center">
-    <img class="flex object-contain" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
-</figure>
+{
+    hero?.image && (
+        <figure class="fixed top-0 left-0 w-screen h-screen flex justify-center">
+            <img class="flex object-contain" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+        </figure>
+    )
+}
