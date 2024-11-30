@@ -1,6 +1,0 @@
-content:
-  - name: concerts
-    label: Koncerty
-    path: src/lib/content/concerts.md
-    type: file
-    format: code
