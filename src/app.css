@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    h1 {
+      @apply text-4xl leading-10;
+    }
+    h2 {
+      @apply text-3xl leading-6 mb-2;
+    }
+    h3 {
+      @apply text-2xl;
+    }
+  }
+
+
+@font-face {
+    font-family: erstwhile;
+    src: url(erstwhile.woff2);
+    /* size-adjust: 100%; */
+  }
+
+html {
+    background-image: url('back.jpg');
+    backdrop-filter: opacity(20%);
+    overflow-x: hidden;
+    font-size: 22px;
+    /* font-size: 1.3vw; */
+}
+
+body {
+  background-color: #faebcb94;
+  @apply pt-2;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'erstwhile';
+    @apply text-sky;
+}
+
+p {
+    @apply text-sky;
+}
+
+.bg-meadow {
+    background-image: url('meadow.png');
+    background-size: cover;
+}
