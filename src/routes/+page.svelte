@@ -52,7 +52,7 @@
 	</div>
 </div>
 
-<!-- footer -->
+<!-- footer hello -->
 
 <div class="relative mt-20 shadow-inner">
 	<img src="meadow_bottom.png" class="absolute -z-10 w-full" alt="louka" />
