@@ -4,13 +4,13 @@
 
 @layer base {
     h1 {
-      @apply text-4xl leading-10;
+      @apply text-5xl leading-10;
     }
     h2 {
-      @apply text-3xl leading-6 mb-2;
+      @apply text-4xl leading-8 mb-2;
     }
     h3 {
-      @apply text-2xl;
+      @apply text-3xl leading-7 mb-2;
     }
   }
 
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  background-color: #faebcb94;
+  /* background-color: #faebcb94; */
   @apply pt-2;
 }
 
@@ -43,7 +43,7 @@ p {
     @apply text-sky;
 }
 
-.bg-meadow {
+/* .bg-meadow {
     background-image: url('meadow.png');
     background-size: cover;
-}
+} */

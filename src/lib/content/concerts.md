@@ -1,3 +1,3 @@
-- 23.11. Slavičín - Laštověnka band
-- 6. 12. Valašské Klobouky - dětský sbor Laštověnka
-- 10. 12. Klub ABC
+- koncert 1
+- koncert 2
+- koncert 3 - [TADY](https://www.google.cz)

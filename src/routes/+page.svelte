@@ -1,6 +1,8 @@
 <script lang="ts">
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
+	import Fb from '$lib/icon/Fb.svelte';
+	import Instagram from '$lib/icon/Instagram.svelte';
 </script>
 
 <img
@@ -8,6 +10,8 @@
 	alt="Vlastovky"
 	class="-z-1 absolute right-0 top-40 w-1/2 translate-x-1/3"
 />
+
+<img src="/swallow_left.png" alt="Vlastovka" class="-z-1 absolute left-0 top-20 w-40" />
 
 <div class="text-md hidden justify-end">
 	<a href="/o-nas" class="px-3">O nás</a>
@@ -19,31 +23,25 @@
 
 <div class="relative px-8">
 	<div class="relative left-[30%] max-w-[500px] -translate-x-1/2">
-		<h2>Hudební uskupení, které obnovuje písně z Valašska</h2>
+		<h3>Hudební uskupení, které obnovuje písně z Valašska</h3>
 		<p>Již zapomenutá tvorba v novém moderním pojetí tradičních i současných hudebních nástrojů.</p>
 		<p class="text-grass">
 			Komplexní pojetí záznamu - od notového, přes zvukový až po videozáznam.
 		</p>
 		<div class="mb-10"></div>
 
-		<h1 class="text-flower">Kde si nás můžete poslechnout</h1>
+		<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
 
 		<Concerts />
-		<!-- <ul class="text-grass">
-			<li>23.11. Slavičín - Laštověnka band</li>
-			<li>6. 12. Valašské Klobouky - dětský sbor Laštověnka</li>
-		</ul> -->
 
 		<div class="mb-10"></div>
 
 		<iframe
-			width="560"
-			height="315"
-			class="mb-10"
+			class="mb-10 h-60 w-full"
 			src="https://www.youtube.com/embed/eEA-UzLimJY?si=LoDGzBg1YbvNCRYf"
-			title="YouTube video player"
+			title="Videoklip Laštověnka - Vesele"
 			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allow="encrypted-media; picture-in-picture; web-share"
 			referrerpolicy="strict-origin-when-cross-origin"
 			allowfullscreen
 		></iframe>
@@ -55,3 +53,24 @@
 </div>
 
 <!-- footer -->
+
+<div class="relative mt-20 shadow-inner">
+	<img src="meadow_bottom.png" class="absolute -z-10 w-full" alt="louka" />
+
+	<div class="px-20 pt-20">
+		<h2 class="text-white">Kontakty</h2>
+		<ul class="text-white">
+			<li>marie@lastovenka.cz</li>
+			<li>
+				<a href="https://www.instagram.com/lastovenka/"
+					><Instagram cls="w-4 inline-flex mr-1 invert" />lastovenka</a
+				>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/people/Laštověnka"
+					><Fb cls="w-4 inline-flex mr-1 invert" />Laštověnka</a
+				>
+			</li>
+		</ul>
+	</div>
+</div>
