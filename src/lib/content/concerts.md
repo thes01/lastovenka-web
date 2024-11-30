@@ -1,0 +1,2 @@
+- 23.11. Slavičín - Laštověnka band
+- 6. 12. Valašské Klobouky - dětský sbor Laštověnka

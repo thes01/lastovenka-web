@@ -1,3 +1,8 @@
+<script lang="ts">
+	// @ts-ignore
+	import Concerts from '$lib/content/concerts.md';
+</script>
+
 <img
 	src="/swallows.png"
 	alt="Vlastovky"
@@ -22,10 +27,12 @@
 		<div class="mb-10"></div>
 
 		<h1 class="text-flower">Kde si nás můžete poslechnout</h1>
-		<ul class="text-grass">
+
+		<Concerts />
+		<!-- <ul class="text-grass">
 			<li>23.11. Slavičín - Laštověnka band</li>
 			<li>6. 12. Valašské Klobouky - dětský sbor Laštověnka</li>
-		</ul>
+		</ul> -->
 
 		<div class="mb-10"></div>
 
