@@ -5,13 +5,9 @@
 	import Instagram from '$lib/icon/Instagram.svelte';
 </script>
 
-<img
-	src="/swallows.png"
-	alt="Vlastovky"
-	class="-z-1 absolute right-0 top-40 w-1/2 translate-x-1/3"
-/>
+<img src="/swallows.webp" alt="Vlastovky" class="-z-1 absolute right-0 top-40 w-1/3" />
 
-<img src="/swallow_left.png" alt="Vlastovka" class="-z-1 absolute left-0 top-20 w-40" />
+<img src="/swallow_1.webp" alt="Vlastovka" class="-z-1 absolute left-0 top-20 w-40" />
 
 <div class="text-md hidden justify-end">
 	<a href="/o-nas" class="px-3">O nás</a>

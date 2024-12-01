@@ -23,7 +23,6 @@
 
 html {
     background-image: url('back.jpg');
-    backdrop-filter: opacity(20%);
     overflow-x: hidden;
     font-size: 22px;
     /* font-size: 1.3vw; */
