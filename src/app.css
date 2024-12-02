@@ -17,12 +17,12 @@
 
 @font-face {
     font-family: erstwhile;
-    src: url(erstwhile.woff2);
+    src: url('/erstwhile.woff2');
     /* size-adjust: 100%; */
   }
 
 html {
-    background-image: url('back.jpg');
+    background-image: url('/back.jpg');
     overflow-x: hidden;
     font-size: 22px;
     /* font-size: 1.3vw; */
