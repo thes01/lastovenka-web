@@ -9,11 +9,11 @@
 
 <img src="/swallow_1.webp" alt="Vlastovka" class="-z-1 absolute left-0 top-20 w-40" />
 
-<div class="text-md hidden justify-end">
+<!-- <div class="text-md hidden justify-end">
 	<a href="/o-nas" class="px-3">O nás</a>
 	<a href="/e-shop" class="px-3">E-shop</a>
 	<a href="/kontakty" class="px-3">Kontakty</a>
-</div>
+</div> -->
 
 <h1 class="mb-32 mt-14 w-full text-center text-[4rem] sm:text-[6rem] lg:text-[9rem]">Laštověnka</h1>
 
