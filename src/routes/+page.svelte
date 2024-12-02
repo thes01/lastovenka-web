@@ -5,9 +5,17 @@
 	import Instagram from '$lib/icon/Instagram.svelte';
 </script>
 
-<img src="/swallows.webp" alt="Vlastovky" class="-z-1 absolute right-0 top-40 w-1/3" />
+<img
+	src="/swallows.webp"
+	alt="Vlastovky"
+	class="-z-1 absolute right-0 top-10 w-1/3 translate-x-1/3 lg:right-0 lg:top-40 lg:translate-x-0"
+/>
 
-<img src="/swallow_1.webp" alt="Vlastovka" class="-z-1 absolute left-0 top-20 w-40" />
+<img
+	src="/swallow_1.webp"
+	alt="Vlastovka"
+	class="-z-1 absolute left-6 top-32 w-20 lg:left-0 lg:top-20 lg:w-40"
+/>
 
 <!-- <div class="text-md hidden justify-end">
 	<a href="/o-nas" class="px-3">O nás</a>
@@ -18,7 +26,7 @@
 <h1 class="mb-32 mt-14 w-full text-center text-[4rem] sm:text-[6rem] lg:text-[9rem]">Laštověnka</h1>
 
 <div class="relative px-8">
-	<div class="relative left-[30%] max-w-[500px] -translate-x-1/2">
+	<div class="relative max-w-[550px] lg:left-[30%] lg:-translate-x-1/2">
 		<h3>Hudební uskupení, které obnovuje písně z Valašska</h3>
 		<p>Již zapomenutá tvorba v novém moderním pojetí tradičních i současných hudebních nástrojů.</p>
 		<p class="text-grass">
