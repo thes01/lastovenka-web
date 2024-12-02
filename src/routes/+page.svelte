@@ -1,6 +1,7 @@
 <script lang="ts">
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
+	import Email from '$lib/Email.svelte';
 	import Fb from '$lib/icon/Fb.svelte';
 	import Instagram from '$lib/icon/Instagram.svelte';
 </script>
@@ -52,7 +53,7 @@
 
 		<h2 class="">Přijedeme k vám!</h2>
 		<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
-		<p class="text-grass">Vše po domluvě na marie@lastovenka.cz</p>
+		<p class="text-grass">Vše po domluvě na <Email /></p>
 	</div>
 </div>
 
@@ -64,7 +65,7 @@
 	<div class="px-20 pt-20">
 		<h2 class="text-white">Kontakty</h2>
 		<ul class="text-white">
-			<li>marie@lastovenka.cz</li>
+			<li><Email /></li>
 			<li>
 				<a href="https://www.instagram.com/lastovenka/"
 					><Instagram cls="w-4 inline-flex mr-1 invert" />lastovenka</a
