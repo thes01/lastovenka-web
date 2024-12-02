@@ -14,7 +14,7 @@
 <img
 	src="/swallow_1.webp"
 	alt="Vlastovka"
-	class="-z-1 absolute left-6 top-32 w-20 lg:left-0 lg:top-20 lg:w-40"
+	class="-z-1 absolute left-6 top-32 w-20 lg:left-0 lg:top-20 lg:w-40 xl:left-6"
 />
 
 <!-- <div class="text-md hidden justify-end">
