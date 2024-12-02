@@ -1,3 +1,3 @@
-- koncert 1
-- koncert 2
-- koncert 3 - [TADY](https://www.google.cz)
+- 6. 12. Adventní koncert, 19:00, kostel Valašské Klobouky
+- 27. 12. Vánoční koncert, 18:00, KD Vlachovice
+- 5. 1. Vánoční koncert, 15:00 kostel Pozlovice
