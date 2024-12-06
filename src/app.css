@@ -31,6 +31,10 @@ html {
 body {
   /* background-color: #faebcb94; */
   @apply pt-2;
+
+  font-family: "Niramit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h1, h2, h3, h4, h5 {
