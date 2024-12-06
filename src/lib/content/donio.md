@@ -1,0 +1,3 @@
+Abychom mohli dělat věci pořádně a naplno, potřebujeme vaši finanční podporu. Z vybraných peněz doplatíme výdaje za nahrané CD a videoklipy, nakoupíme novou techniku, zaplatíme web, reklamu, zorganizujeme koncerty, atd...
+
+**[https://donio.cz/podporlastovenku](https://donio.cz/podporlastovenku)**

@@ -1,6 +1,8 @@
 <script lang="ts">
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
+	// @ts-ignore
+	import Donio from '$lib/content/donio.md';
 	import Email from '$lib/Email.svelte';
 	import Fb from '$lib/icon/Fb.svelte';
 	import Instagram from '$lib/icon/Instagram.svelte';
@@ -36,13 +38,12 @@
 		<div class="mb-10"></div>
 
 		<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
-
 		<Concerts />
 
 		<div class="mb-10"></div>
 
 		<iframe
-			class="mb-10 h-60 w-full"
+			class="h-60 w-full"
 			src="https://www.youtube.com/embed/eEA-UzLimJY?si=LoDGzBg1YbvNCRYf"
 			title="Videoklip Laštověnka - Vesele"
 			frameborder="0"
@@ -51,7 +52,10 @@
 			allowfullscreen
 		></iframe>
 
-		<h2 class="">Přijedeme k vám!</h2>
+		<h3 class="mt-10">Podpořte nás na <a href="https://donio.cz/podporlastovenku">Donio.cz</a></h3>
+		<Donio />
+
+		<h2 class="mt-10">Přijedeme k vám!</h2>
 		<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
 		<p class="text-grass">Vše po domluvě na <Email /></p>
 	</div>
