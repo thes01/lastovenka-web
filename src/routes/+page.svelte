@@ -66,7 +66,7 @@
 <div class="relative mt-40">
 	<img
 		src="meadow_bottom.webp"
-		class="absolute bottom-0 right-0 -z-10 w-full min-w-[1800px]"
+		class="absolute bottom-0 right-0 -z-10 w-full min-w-[1800px] select-none"
 		alt="louka"
 	/>
 

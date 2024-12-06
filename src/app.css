@@ -22,6 +22,7 @@
   }
 
 html {
+    background-color: #f4e7c7;
     background-image: url('/back.jpg');
     overflow-x: hidden;
     font-size: 22px;
