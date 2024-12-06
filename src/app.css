@@ -46,6 +46,10 @@ p {
     @apply text-sky;
 }
 
+a {
+  @apply hover:underline;
+}
+
 /* .bg-meadow {
     background-image: url('meadow.png');
     background-size: cover;
