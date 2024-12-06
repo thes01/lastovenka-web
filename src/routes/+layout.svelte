@@ -17,6 +17,8 @@
 	<meta property="og:image:type" content="image/jpg" />
 	<meta property="og:image:width" content="879" />
 	<meta property="og:image:height" content="602" />
+
+	<meta name="theme-color" content="#285a81" />
 </svelte:head>
 
 <div class="relative w-screen overflow-hidden pt-2">
