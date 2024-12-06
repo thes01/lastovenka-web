@@ -11,6 +11,7 @@
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Niramit:ital,wght@0,300;0,400;1,400&display=swap"
 		rel="stylesheet"
 	/>
+	<link rel="icon" type="image/x-icon" href="/favicon.png" />
 
 	<meta property="og:image" content="/social.jpg" />
 	<meta property="og:image:type" content="image/jpg" />
