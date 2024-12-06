@@ -19,6 +19,6 @@
 	<meta property="og:image:height" content="602" />
 </svelte:head>
 
-<div class="relative w-screen overflow-hidden">
+<div class="relative w-screen overflow-hidden pt-2">
 	{@render children()}
 </div>

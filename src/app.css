@@ -12,7 +12,7 @@
     h3 {
       @apply text-3xl leading-7 mb-2;
     }
-  }
+}
 
 
 @font-face {
@@ -25,14 +25,16 @@ html {
     background-color: #f4e7c7;
     background-image: url('/back.jpg');
     overflow-x: hidden;
-    font-size: 22px;
+    font-size: 18px;
     /* font-size: 1.3vw; */
+
+    @screen sm {
+       font-size: 22px;
+    }
 }
 
 body {
   /* background-color: #faebcb94; */
-  @apply pt-2;
-
   font-family: "Niramit", sans-serif;
   font-weight: 300;
   font-style: normal;
