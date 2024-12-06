@@ -59,10 +59,10 @@
 
 <!-- footer hello -->
 
-<div class="relative mt-20">
+<div class="relative mt-40">
 	<img
 		src="meadow_bottom.webp"
-		class="absolute bottom-0 right-0 -z-10 w-full min-w-[1600px]"
+		class="absolute bottom-0 right-0 -z-10 w-full min-w-[1800px]"
 		alt="louka"
 	/>
 
