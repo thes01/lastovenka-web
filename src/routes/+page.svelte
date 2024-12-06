@@ -30,7 +30,7 @@
 
 <div class="relative px-8">
 	<div class="relative max-w-[550px] lg:left-[30%] lg:-translate-x-1/2">
-		<h3>Hudební uskupení, které obnovuje písně z Valašska</h3>
+		<h3>Hudební uskupení, které obnovuje písně z&nbsp;Valašska</h3>
 		<p>Již zapomenutá tvorba v novém moderním pojetí tradičních i současných hudebních nástrojů.</p>
 		<p class="text-grass">
 			Komplexní pojetí záznamu - od notového, přes zvukový až po videozáznam.
