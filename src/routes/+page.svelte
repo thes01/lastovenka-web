@@ -59,10 +59,14 @@
 
 <!-- footer hello -->
 
-<div class="relative mt-20 shadow-inner">
-	<img src="meadow_bottom.png" class="absolute -z-10 w-full" alt="louka" />
+<div class="relative mt-20">
+	<img
+		src="meadow_bottom.webp"
+		class="absolute bottom-0 right-0 -z-10 w-full min-w-[1600px]"
+		alt="louka"
+	/>
 
-	<div class="px-20 pt-20">
+	<div class="px-10 pb-4 pt-20 lg:px-20">
 		<h2 class="text-white">Kontakty</h2>
 		<ul class="text-white">
 			<li><Email /></li>
