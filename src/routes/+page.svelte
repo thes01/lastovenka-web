@@ -37,8 +37,19 @@
 		</p>
 		<div class="mb-10"></div>
 
-		<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
-		<Concerts />
+		<!-- <h2 class="text-flower">Kde si nás můžete poslechnout</h2>
+		<Concerts /> -->
+
+		<h2 class="text-flower">Laštověnka ve Zprávičkách ČT</h2>
+		<p>
+			Děkujeme Petru Kotrlovi za krásnou reportáž v rámci pořadu Zprávičky.
+
+			<a
+				href="https://www.ceskatelevize.cz/porady/10265744641-zpravicky/225411000160107/"
+				class="underline hover:no-underline"
+				>https://www.ceskatelevize.cz/porady/10265744641-zpravicky/225411000160107
+			</a>
+		</p>
 
 		<div class="mb-10"></div>
 

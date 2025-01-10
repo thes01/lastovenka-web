@@ -1,3 +1,0 @@
-- Adventní koncert 6. 12. 19:00, kostel Valašské Klobouky
-- Vánoční koncert 27. 12. 18:00, KD Vlachovice
-- Vánoční koncert 5. 1. 15:00, kostel Pozlovice
