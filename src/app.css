@@ -8,34 +8,51 @@
 
 
 @layer base {
-    h1 {
-      @apply text-5xl leading-10;
-    }
-    h2 {
-      @apply text-4xl leading-8 mb-2;
-    }
-    h3 {
-      @apply text-3xl leading-7 mb-2;
-    }
+  h1 {
+    @apply text-5xl leading-10;
+  }
+
+  h2 {
+    @apply text-4xl leading-8 mb-2;
+  }
+
+  h3 {
+    @apply text-3xl leading-7 mb-2;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'erstwhile';
+  }
+
+  a {
+    @apply hover:underline;
+  }
+
+  main {
+    color: var(--color-sky);
+  }
 }
 
 
 @font-face {
-    font-family: erstwhile;
-    src: url('/erstwhile.woff2');
-    /* size-adjust: 100%; */
-  }
+  font-family: erstwhile;
+  src: url('/erstwhile.woff2');
+}
 
 html {
-    background-color: #f4e7c7;
-    background-image: url('/back.jpg');
-    overflow-x: hidden;
-    font-size: 18px;
-    /* font-size: 1.3vw; */
+  background-color: #f4e7c7;
+  background-image: url('/back.jpg');
+  overflow-x: hidden;
+  font-size: 18px;
+  /* font-size: 1.3vw; */
 
-    @media (width >= theme(--breakpoint-sm)) {
-       font-size: 22px;
-    }
+  @media (width >=theme(--breakpoint-sm)) {
+    font-size: 22px;
+  }
 }
 
 body {
@@ -45,18 +62,6 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'erstwhile';
-    @apply text-sky;
-}
-
-p {
-    @apply text-sky;
-}
-
-a {
-  @apply hover:underline;
-}
 
 /* .bg-meadow {
     background-image: url('meadow.png');
