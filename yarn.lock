@@ -1763,6 +1763,11 @@ svelte-eslint-parser@^1.0.1:
     postcss-scss "^4.0.9"
     postcss-selector-parser "^7.0.0"
 
+svelte-tiny-slider@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-tiny-slider/-/svelte-tiny-slider-2.2.0.tgz#038641c16ea30e23bab9a3d46b183492c050b2cf"
+  integrity sha512-wbc5l4WO9o1dqAuoqgeHfiLqPiBX+rgRtTVUIAArkTz+MhKFCy4yQsE7IIJOcvKt0SCRosVEa8QciwMKG8V0sA==
+
 svelte@^5.25.3:
   version "5.25.3"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.25.3.tgz#ec2a707133c99d4cbe9d64e72abccc7733656df3"
