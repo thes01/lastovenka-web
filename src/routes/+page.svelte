@@ -39,19 +39,10 @@
 		</p>
 		<div class="mb-10"></div>
 
-		<!-- <h2 class="text-flower">Kde si nás můžete poslechnout</h2>
-		<Concerts /> -->
-
-		<h2 class="text-flower">Laštověnka ve Zprávičkách ČT</h2>
-		<p>
-			Děkujeme Petru Kotrlovi za krásnou reportáž v rámci pořadu Zprávičky.
-
-			<a
-				href="https://www.ceskatelevize.cz/porady/10265744641-zpravicky/225411000160107/"
-				class="underline hover:no-underline"
-				>https://www.ceskatelevize.cz/porady/10265744641-zpravicky/225411000160107
-			</a>
-		</p>
+		<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
+		<div class="concerts">
+			<Concerts />
+		</div>
 
 		<div class="mb-10"></div>
 
@@ -65,8 +56,8 @@
 			allowfullscreen
 		></iframe>
 
-		<h3 class="mt-10">Podpořte nás na <a href="https://donio.cz/podporlastovenku">Donio.cz</a></h3>
-		<Donio />
+		<!-- <h3 class="mt-10">Podpořte nás na <a href="https://donio.cz/podporlastovenku">Donio.cz</a></h3>
+		<Donio /> -->
 
 		<h2 class="mt-10">Přijedeme k vám!</h2>
 		<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
