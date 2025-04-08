@@ -1,15 +1,30 @@
 <script lang="ts">
-	import { TinySlider } from 'svelte-tiny-slider';
+	import emblaCarouselSvelte from 'embla-carousel-svelte';
 
 	interface Props {
-		items: string[];
+		urls: string[];
 	}
 
-	const { items }: Props = $props();
+	const { urls }: Props = $props();
 </script>
 
-<TinySlider>
-	{#each items as item}
-		<img src={item} alt="" />
-	{/each}
-</TinySlider>
+<div class="embla" use:emblaCarouselSvelte={{ options: { loop: true }, plugins: [] }}>
+	<div class="embla__container">
+		{#each urls as url}
+			<img src={url} alt="img" />
+		{/each}
+	</div>
+</div>
+
+<style>
+	.embla {
+		overflow: hidden;
+	}
+	.embla__container {
+		display: flex;
+	}
+	.embla__slide {
+		flex: 0 0 100%;
+		min-width: 0;
+	}
+</style>
