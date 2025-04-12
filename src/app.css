@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import "./embla.css";
 
 @theme {
   --color-sky: #285a81;
