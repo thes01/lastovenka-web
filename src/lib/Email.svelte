@@ -1,15 +1,14 @@
 <script lang="ts">
-	export let address = 'marie@lastovenka.cz';
-
-	$: parts = address.split('@');
-
-	function random_content() {
-		return crypto.randomUUID();
+	interface Props {
+		address?: string;
 	}
+	const { address = 'marie@lastovenka.cz' }: Props = $props();
+
+	const parts = $derived(address.split('@'));
 </script>
 
 <span>
-	{parts[0]}<b class="hidden select-none">{random_content()}</b>@<b class="hidden select-none"
-		>{random_content()}</b
+	{parts[0]}<b class="hidden select-none">{crypto.randomUUID()}</b>@<b class="hidden select-none"
+		>{crypto.randomUUID()}</b
 	>{parts[1]}
 </span>
