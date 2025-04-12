@@ -2,7 +2,9 @@
 	<h3 class="mt-4">Marie Hrnčiříková</h3>
 
 	<div class="flex">
-		<img src="" alt="" />
+		<div>
+			<img src="https://eu.zonerama.com/photos/523063430_1752x1168.jpg" alt="Marie" />
+		</div>
 		<p>
 			Autorka projektu, sbormistrně, zpěvačka a houslistka. Náhodný objev starých rukopisů sběratele
 			Jaroslava Smutného změnil její pohled na hudební dědictví. Od té doby se rozhodla obnovit a
@@ -37,7 +39,9 @@
 			zpěv
 		</p>
 
-		<img src="" alt="" />
+		<div>
+			<img src="https://eu.zonerama.com/photos/523063424_1752x1168.jpg" alt="Laštověnka band" />
+		</div>
 	</div>
 
 	<p>
