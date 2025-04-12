@@ -1,5 +1,5 @@
-<main class="relative px-8">
-	<h3>Marie Hrnčiříková</h3>
+<main class="relative mx-8 max-w-[750px] xl:left-[30%] xl:-translate-x-1/2">
+	<h3 class="mt-4">Marie Hrnčiříková</h3>
 
 	<div class="flex">
 		<img src="" alt="" />
@@ -10,14 +10,14 @@
 		</p>
 	</div>
 
-	<div class="flex">
-		<div>
-			<h3>Eva Šerá</h3>
-			<p>
-				Ilustrátorka a grafička nejen pro projekt Laštověnka. Její malby můžete najít v nejedné
-				dětské knížce.
-			</p>
-		</div>
+	<div class="mt-4">
+		<h3>Eva Šerá</h3>
+		<p>
+			Ilustrátorka a grafička nejen pro projekt Laštověnka. Její malby můžete najít v nejedné dětské
+			knížce.
+		</p>
+	</div>
+	<div class="mt-4 flex justify-between">
 		<div>
 			<h3>Vojtěch Staša</h3>
 			<p>Kamera a střih videoklipů.</p>
@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<h3>Laštověnka band</h3>
+	<h3 class="mt-4">Laštověnka band</h3>
 
 	<div class="flex">
 		<p>
@@ -46,7 +46,7 @@
 		flétna, Mira Šerý - trubka, Karolína Jurčagová - zpěv
 	</p>
 
-	<h3>Dětský sbor Laštověnka</h3>
+	<h3 class="mt-6">Dětský sbor Laštověnka</h3>
 
 	<p>Dětský sbor působící ve Štítné nad Vláří pod vedením Marie Hrnčiříkové.</p>
 
@@ -54,13 +54,15 @@
 
 	<!-- footer -->
 
-	<div class="flex">
+	<div class="mt-10 flex justify-between">
 		<div>
-			<h3 class="text-white">Bára Solařová</h3>
+			<h3 class="">Bára Solařová</h3>
+			<p>Foto, web, sociální sítě</p>
 		</div>
 
 		<div>
-			<h3 class="text-white">Mira Šerý</h3>
+			<h3 class="">Mira Šerý</h3>
+			<p>Webové stránky</p>
 		</div>
 	</div>
 </main>
