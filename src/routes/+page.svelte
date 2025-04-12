@@ -26,41 +26,37 @@
 	Laštověnka
 </h1>
 
-<main class="relative px-8">
-	<div class="relative max-w-[550px] lg:left-[30%] lg:-translate-x-1/2">
-		<h3>Hudební uskupení, které obnovuje písně z&nbsp;Valašska</h3>
-		<p>Již zapomenutá tvorba v novém moderním pojetí tradičních i současných hudebních nástrojů.</p>
-		<p class="text-grass">
-			Komplexní pojetí záznamu - od notového, přes zvukový až po videozáznam.
-		</p>
-		<div class="mb-10"></div>
+<main class="relative mx-8 max-w-[550px] lg:left-[30%] lg:-translate-x-1/2">
+	<h3>Hudební uskupení, které obnovuje písně z&nbsp;Valašska</h3>
+	<p>Již zapomenutá tvorba v novém moderním pojetí tradičních i současných hudebních nástrojů.</p>
+	<p class="text-grass">Komplexní pojetí záznamu - od notového, přes zvukový až po videozáznam.</p>
+	<div class="mb-10"></div>
 
-		<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
-		<div class="concerts">
-			<Concerts />
-		</div>
+	<h2 class="text-flower">Kde si nás můžete poslechnout</h2>
+	<div class="concerts">
+		<Concerts />
+	</div>
 
-		<div class="mb-10"></div>
+	<div class="mb-10"></div>
 
-		<iframe
-			class="h-60 w-full"
-			src="https://www.youtube.com/embed/eEA-UzLimJY?si=LoDGzBg1YbvNCRYf"
-			title="Videoklip Laštověnka - Vesele"
-			frameborder="0"
-			allow="encrypted-media; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-		></iframe>
+	<iframe
+		class="h-60 w-full"
+		src="https://www.youtube.com/embed/eEA-UzLimJY?si=LoDGzBg1YbvNCRYf"
+		title="Videoklip Laštověnka - Vesele"
+		frameborder="0"
+		allow="encrypted-media; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen
+	></iframe>
 
-		<h2 class="mt-10">Přijedeme k vám!</h2>
-		<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
-		<p class="text-grass">Vše po domluvě na <Email /></p>
+	<h2 class="mt-10">Přijedeme k vám!</h2>
+	<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
+	<p class="text-grass">Vše po domluvě na <Email /></p>
 
-		<!-- <PhotoSlider
+	<!-- <PhotoSlider
 			urls={[
 				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423974/ado-merch/IMG_0402_1_sf7ebo.jpg',
 				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423979/ado-merch/IMG_0460_1_imhfqt.jpg'
 			]}
 		/> -->
-	</div>
 </main>
