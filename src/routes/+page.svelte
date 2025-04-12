@@ -1,12 +1,7 @@
 <script lang="ts">
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
-	// @ts-ignore
-	import Donio from '$lib/content/donio.md';
 	import Email from '$lib/Email.svelte';
-	import Fb from '$lib/icon/Fb.svelte';
-	import Instagram from '$lib/icon/Instagram.svelte';
-	import PhotoSlider from '$lib/PhotoSlider.svelte';
 </script>
 
 <img
@@ -57,9 +52,6 @@
 			allowfullscreen
 		></iframe>
 
-		<!-- <h3 class="mt-10">Podpořte nás na <a href="https://donio.cz/podporlastovenku">Donio.cz</a></h3>
-		<Donio /> -->
-
 		<h2 class="mt-10">Přijedeme k vám!</h2>
 		<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
 		<p class="text-grass">Vše po domluvě na <Email /></p>
@@ -72,30 +64,3 @@
 		/> -->
 	</div>
 </main>
-
-<!-- footer hello -->
-
-<footer class="relative mt-80 sm:mt-40">
-	<img
-		src="meadow_bottom.webp"
-		class="absolute right-0 bottom-0 -z-10 w-full min-w-[1800px] select-none"
-		alt="louka"
-	/>
-
-	<div class="px-10 pt-20 pb-4 lg:px-20">
-		<h2 class="text-white">Kontakty</h2>
-		<ul class="text-white">
-			<li><Email /></li>
-			<li>
-				<a href="https://www.instagram.com/lastovenka/"
-					><Instagram cls="w-4 inline-flex mr-1 invert" />lastovenka</a
-				>
-			</li>
-			<li>
-				<a href="https://www.facebook.com/people/Laštověnka"
-					><Fb cls="w-4 inline-flex mr-1 invert" />Laštověnka</a
-				>
-			</li>
-		</ul>
-	</div>
-</footer>
