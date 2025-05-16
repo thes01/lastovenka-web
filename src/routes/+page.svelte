@@ -2,6 +2,8 @@
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
 	import Email from '$lib/Email.svelte';
+	import PhotoSlider from '$lib/PhotoSlider.svelte';
+	import { get_title_photos, zonerama_urls } from '$lib/zonerama';
 </script>
 
 <img
@@ -47,10 +49,7 @@
 	<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
 	<p class="text-grass">Vše po domluvě na <Email /></p>
 
-	<!-- <PhotoSlider
-			urls={[
-				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423974/ado-merch/IMG_0402_1_sf7ebo.jpg',
-				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423979/ado-merch/IMG_0460_1_imhfqt.jpg'
-			]}
-		/> -->
+	<div class="mt-10">
+		<PhotoSlider urls={zonerama_urls(get_title_photos())} />
+	</div>
 </main>

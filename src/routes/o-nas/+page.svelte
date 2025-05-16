@@ -1,6 +1,6 @@
 <script>
 	import PhotoSlider from '$lib/PhotoSlider.svelte';
-	import { zonerama_url, zonerama_urls } from '$lib/zonerama';
+	import { photos, zonerama_url, zonerama_urls } from '$lib/zonerama';
 </script>
 
 <main class="relative mx-8 max-w-[750px] pt-4 xl:left-[35%] xl:-translate-x-1/2">
@@ -10,7 +10,7 @@
 
 	<div class="flex flex-col gap-2 sm:flex-row">
 		<div class="sm:w-1/2">
-			<img src={zonerama_url(523063430)} alt="Marie" />
+			<img src={zonerama_url(photos.marie[0])} alt="Marie" />
 		</div>
 		<p class="text-justify sm:w-1/2">
 			Autorka projektu, sbormistrně, zpěvačka a houslistka. Náhodný objev starých rukopisů sběratele
@@ -52,7 +52,7 @@
 		</p>
 
 		<div class="sm:w-1/2">
-			<PhotoSlider urls={zonerama_urls([523063424, 523063450, 523063428, 523058019])}></PhotoSlider>
+			<PhotoSlider urls={zonerama_urls(photos.band)}></PhotoSlider>
 		</div>
 	</div>
 
@@ -71,7 +71,7 @@
 
 	<p class="mb-3">Dětský sbor působící ve Štítné nad Vláří pod vedením Marie Hrnčiříkové.</p>
 
-	<PhotoSlider urls={zonerama_urls([476843206, 523060247, 460496545, 476843219])}></PhotoSlider>
+	<PhotoSlider urls={zonerama_urls(photos.choir)}></PhotoSlider>
 
 	<div class="mt-10 flex justify-between">
 		<div>
