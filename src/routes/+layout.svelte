@@ -3,6 +3,7 @@
 	import Fb from '$lib/icon/Fb.svelte';
 	import Instagram from '$lib/icon/Instagram.svelte';
 	import '../app.css';
+	import { page } from '$app/state';
 
 	let { children } = $props();
 </script>
@@ -25,6 +26,14 @@
 </svelte:head>
 
 <div class="relative w-screen overflow-hidden pt-2">
+	<div class="text-md text-sky font-erstwhile absolute z-20 flex w-full justify-end text-2xl">
+		{#if page.url.pathname !== '/'}
+			<a href="/" class="px-3">Domů</a>
+		{/if}
+		<a href="/o-nas" class="px-3">O nás</a>
+		<!-- <a href="/e-shop" class="px-3">E-shop</a> -->
+		<!-- <a href="/kontakty" class="px-3">Kontakty</a> -->
+	</div>
 	{@render children()}
 
 	<footer class="relative mt-80 sm:mt-40">

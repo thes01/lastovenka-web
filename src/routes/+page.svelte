@@ -16,12 +16,6 @@
 	class="absolute top-32 left-6 -z-1 w-20 lg:top-20 lg:left-0 lg:w-40 xl:left-6"
 />
 
-<!-- <div class="text-md hidden justify-end">
-	<a href="/o-nas" class="px-3">O nás</a>
-	<a href="/e-shop" class="px-3">E-shop</a>
-	<a href="/kontakty" class="px-3">Kontakty</a>
-</div> -->
-
 <h1 class="text-sky mt-14 mb-32 w-full text-center text-[4rem] sm:text-[6rem] lg:text-[9rem]">
 	Laštověnka
 </h1>
