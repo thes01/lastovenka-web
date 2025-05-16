@@ -1,13 +1,17 @@
+<script>
+	import PhotoSlider from '$lib/PhotoSlider.svelte';
+</script>
+
 <main class="relative mx-8 max-w-[750px] pt-4 xl:left-[30%] xl:-translate-x-1/2">
 	<h1>O nás</h1>
 
 	<h3 class="mt-8">Marie Hrnčiříková</h3>
 
 	<div class="flex flex-col gap-2 sm:flex-row">
-		<div>
-			<img src="https://eu.zonerama.com/photos/523063430_1752x1168.jpg" alt="Marie" />
+		<div class="sm:w-1/2">
+			<img src="https://eu.zonerama.com/photos/523063430_1296x864.jpg" alt="Marie" />
 		</div>
-		<p class="text-justify">
+		<p class="text-justify sm:w-1/2">
 			Autorka projektu, sbormistrně, zpěvačka a houslistka. Náhodný objev starých rukopisů sběratele
 			Jaroslava Smutného změnil její pohled na hudební dědictví. Od té doby se rozhodla obnovit a
 			uchovat bohatou hudební historii valašského regionu.
@@ -39,15 +43,15 @@
 	<div class="flex flex-col gap-2 sm:flex-row">
 		<p class="sm:w-1/2">
 			Marie Hrnčiříková - zpěv, housle<br />
-			Vojtěch Hrnčiřík - akustická kytara, zpěv<br />
-			Jan Vaněk - elektrická kytara<br />
+			Vojtěch Hrnčiřík - ak. kytara, zpěv<br />
+			Jan Vaněk - el. kytara<br />
 			Jan Cahel - baskytara<br />
 			Martin Kudela - bicí<br />
 			Anežka Hrnčiříková - klávesy, zpěv
 		</p>
 
 		<div class="sm:w-1/2">
-			<img src="https://eu.zonerama.com/photos/523063424_1752x1168.jpg" alt="Laštověnka band" />
+			<img src="https://eu.zonerama.com/photos/523063424_1296x864.jpg" alt="Laštověnka band" />
 		</div>
 	</div>
 
@@ -64,15 +68,15 @@
 
 	<h3 class="mt-6">Dětský sbor Laštověnka</h3>
 
-	<p>Dětský sbor působící ve Štítné nad Vláří pod vedením Marie Hrnčiříkové.</p>
+	<p class="mb-3">Dětský sbor působící ve Štítné nad Vláří pod vedením Marie Hrnčiříkové.</p>
 
-	<img
-		class="mt-2"
-		src="https://eu.zonerama.com/photos/476843206_1296x864.jpg"
-		alt="Dětský sbor Laštověnka"
-	/>
-
-	<!-- footer -->
+	<PhotoSlider
+		urls={[
+			'https://eu.zonerama.com/photos/476843206_1296x864.jpg',
+			'https://eu.zonerama.com/photos/460496545_1296x864.jpg',
+			'https://eu.zonerama.com/photos/476843219_1296x864.jpg'
+		]}
+	></PhotoSlider>
 
 	<div class="mt-10 flex justify-between">
 		<div>
