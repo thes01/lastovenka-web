@@ -26,7 +26,7 @@
 </svelte:head>
 
 <div class="relative w-screen overflow-hidden pt-2">
-	<div class="text-md text-sky font-erstwhile absolute z-20 flex w-full justify-end text-2xl">
+	<div class="text-md text-sky font-erstwhile absolute flex w-full justify-end pr-4 text-2xl">
 		{#if page.url.pathname !== '/'}
 			<a href="/" class="px-3">Domů</a>
 		{/if}
