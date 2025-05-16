@@ -1,7 +1,9 @@
-<main class="relative mx-8 max-w-[750px] xl:left-[30%] xl:-translate-x-1/2">
-	<h3 class="mt-4">Marie Hrnčiříková</h3>
+<main class="relative mx-8 max-w-[750px] pt-4 xl:left-[30%] xl:-translate-x-1/2">
+	<h1>O nás</h1>
 
-	<div class="flex">
+	<h3 class="mt-8">Marie Hrnčiříková</h3>
+
+	<div class="flex gap-2">
 		<div>
 			<img src="https://eu.zonerama.com/photos/523063430_1752x1168.jpg" alt="Marie" />
 		</div>
@@ -32,19 +34,22 @@
 
 	<h3 class="mt-4">Laštověnka band</h3>
 
-	<div class="flex">
-		<p>
-			Marie Hrnčiříková - zpěv, housle Vojtěch Hrnčiřík - akustická kytara, zpěv Jan Vaněk -
-			elektrická kytara Jan Cahel - baskytara Martin Kudela - bicí Anežka Hrnčiříková - klávesy,
-			zpěv
+	<div class="flex gap-2">
+		<p class="shrink-0">
+			Marie Hrnčiříková - zpěv, housle<br />
+			Vojtěch Hrnčiřík - akustická kytara, zpěv<br />
+			Jan Vaněk - elektrická kytara<br />
+			Jan Cahel - baskytara<br />
+			Martin Kudela - bicí<br />
+			Anežka Hrnčiříková - klávesy, zpěv
 		</p>
 
-		<div>
+		<div class="">
 			<img src="https://eu.zonerama.com/photos/523063424_1752x1168.jpg" alt="Laštověnka band" />
 		</div>
 	</div>
 
-	<p>
+	<p class="mt-4">
 		Dominik Vaněk - zpěv, Marek Polách - klarinet, Veronika Mišáková - housle, viola, Veronika
 		Lišková - housle, Alžběta Manová - zobcová flétna, příčná flétna, Kristýna Fojtíková - příčná
 		flétna, Mira Šerý - trubka, Karolína Jurčagová - zpěv
