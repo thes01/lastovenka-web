@@ -2,6 +2,8 @@
 	// @ts-ignore
 	import Concerts from '$lib/content/concerts.md';
 	import Email from '$lib/Email.svelte';
+	import PhotoSlider from '$lib/PhotoSlider.svelte';
+	import { get_title_photos, zonerama_urls } from '$lib/zonerama';
 </script>
 
 <img
@@ -15,12 +17,6 @@
 	alt="Vlastovka"
 	class="absolute top-32 left-6 -z-1 w-20 lg:top-20 lg:left-0 lg:w-40 xl:left-6"
 />
-
-<!-- <div class="text-md hidden justify-end">
-	<a href="/o-nas" class="px-3">O nás</a>
-	<a href="/e-shop" class="px-3">E-shop</a>
-	<a href="/kontakty" class="px-3">Kontakty</a>
-</div> -->
 
 <h1 class="text-sky mt-14 mb-32 w-full text-center text-[4rem] sm:text-[6rem] lg:text-[9rem]">
 	Laštověnka
@@ -53,10 +49,7 @@
 	<p>Rádi přijedeme a živě vystoupíme v plné nebo částečné sestavě.</p>
 	<p class="text-grass">Vše po domluvě na <Email /></p>
 
-	<!-- <PhotoSlider
-			urls={[
-				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423974/ado-merch/IMG_0402_1_sf7ebo.jpg',
-				'https://res.cloudinary.com/adorare/image/upload/c_scale,q_45,w_1000/v1654423979/ado-merch/IMG_0460_1_imhfqt.jpg'
-			]}
-		/> -->
+	<div class="mt-10">
+		<PhotoSlider urls={zonerama_urls(get_title_photos())} />
+	</div>
 </main>
