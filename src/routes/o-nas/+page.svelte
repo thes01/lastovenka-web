@@ -3,7 +3,7 @@
 	import { zonerama_url, zonerama_urls } from '$lib/zonerama';
 </script>
 
-<main class="relative mx-8 max-w-[750px] pt-4 xl:left-[30%] xl:-translate-x-1/2">
+<main class="relative mx-8 max-w-[750px] pt-4 xl:left-[35%] xl:-translate-x-1/2">
 	<h1>O nás</h1>
 
 	<h3 class="mt-8">Marie Hrnčiříková</h3>
