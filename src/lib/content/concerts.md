@@ -1,4 +1,2 @@
-- 11.5. Štítná nad Vláří
-- 8.6. Slavičín
 - 2.7. Valašské Klobouky, Dům na rohu (Laštověnka band)
 - 9.8. Valašské Klobouky (Laštověnka band)
