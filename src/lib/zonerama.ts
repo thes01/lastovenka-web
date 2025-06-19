@@ -1,9 +1,18 @@
-export function zonerama_url(photo_id: string | number, size_str: string = '1296x864') {
+export const ZONERAMA_SIZE = {
+    'small': '640x427',
+    'medium': '1024x683',
+    'large': '1296x864',
+}
+
+export type ZoneramaSize = keyof typeof ZONERAMA_SIZE;
+
+export function zonerama_url(photo_id: string | number, size: ZoneramaSize = 'small') {
+    const size_str = ZONERAMA_SIZE[size];
     return `https://eu.zonerama.com/photos/${photo_id}_${size_str}.jpg`;
 }
 
-export function zonerama_urls(photo_ids: (string | number)[], size_str: string = '1296x864') {
-    return photo_ids.map((photo_id) => zonerama_url(photo_id, size_str));
+export function zonerama_urls(photo_ids: (string | number)[], size: ZoneramaSize = 'small') {
+    return photo_ids.map((photo_id) => zonerama_url(photo_id, size));
 }
 
 export const photos = {
@@ -14,7 +23,7 @@ export const photos = {
         476843206, 523060247, 460496545, 476843219
     ],
     marie: [
-        523063430
+        495085307
     ]
 } satisfies Record<string, number[]>;
 
