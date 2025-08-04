@@ -1,2 +1,3 @@
-- 2.7. Valašské Klobouky, Dům na rohu (Laštověnka band)
-- 9.8. Valašské Klobouky (Laštověnka band)
+- 9.8. v 15h Valašské Klobouky
+- 25.8. v 19h Štítná nad Vláří
+- 5.9. V radosti Valašské Klobouky
