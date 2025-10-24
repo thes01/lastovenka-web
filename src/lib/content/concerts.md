@@ -1,3 +1,2 @@
-- 9.8. v 15h Valašské Klobouky
-- 25.8. v 19h Štítná nad Vláří
-- 5.9. V radosti Valašské Klobouky
+- 22.11. Chvalčov - Adventní inspirace
+- 29.11. Nedašov - Rozsvěcováni Vánočního stromku
