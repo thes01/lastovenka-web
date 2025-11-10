@@ -1,2 +1,0 @@
-- 22.11. Chvalčov - Adventní inspirace
-- 29.11. Nedašov - Rozsvěcováni Vánočního stromku
