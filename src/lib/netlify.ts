@@ -8,7 +8,7 @@ export type NetlifySize = keyof typeof NETLIFY_SIZE;
 
 export function netlify_url(photo_id: string | number, size: NetlifySize = 'small') {
 	const size_str = NETLIFY_SIZE[size];
-	return `/.netlify/images?url=/${photo_id}${size_str}`;
+	return `https://lastovenka.cz/.netlify/images?url=/${photo_id}${size_str}`;
 }
 
 export function netlify_urls(photo_ids: (string | number)[], size: NetlifySize = 'small') {
