@@ -1,6 +1,6 @@
 <script>
-	import PhotoSlider from '$lib/PhotoSlider.svelte';
-	import { photos, zonerama_url, zonerama_urls } from '$lib/zonerama';
+	import PhotoSlider from '#lib/PhotoSlider.svelte';
+	import { photos, zonerama_url, zonerama_urls } from '#lib/zonerama.ts';
 </script>
 
 <main class="relative mx-8 max-w-[750px] pt-4 xl:left-[35%] xl:-translate-x-1/2">

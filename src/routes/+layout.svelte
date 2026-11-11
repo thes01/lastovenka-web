@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Email from '$lib/Email.svelte';
-	import Fb from '$lib/icon/Fb.svelte';
-	import Instagram from '$lib/icon/Instagram.svelte';
+	import Email from '#lib/Email.svelte';
+	import Fb from '#lib/icon/Fb.svelte';
+	import Instagram from '#lib/icon/Instagram.svelte';
 	import '../app.css';
 	import { page } from '$app/state';
 

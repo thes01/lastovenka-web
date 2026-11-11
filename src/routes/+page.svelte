@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Concerts from '$lib/Concerts.svelte';
-	import Email from '$lib/Email.svelte';
-	import PhotoSlider from '$lib/PhotoSlider.svelte';
-	import { get_title_photos, zonerama_urls } from '$lib/zonerama';
+	import Concerts from '#lib/Concerts.svelte';
+	import Email from '#lib/Email.svelte';
+	import PhotoSlider from '#lib/PhotoSlider.svelte';
+	import { get_title_photos, zonerama_urls } from '#lib/zonerama.ts';
 </script>
 
 <img
