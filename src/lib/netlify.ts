@@ -1,7 +1,7 @@
 export const NETLIFY_SIZE = {
-	small: '&w=640x&h=427',
-	medium: '&w=1024x&h=683',
-	large: '&w=1296x&h=864'
+	small: '&w=640&h=427',
+	medium: '&w=1024&h=683',
+	large: '&w=1296&h=864'
 };
 
 export type NetlifySize = keyof typeof NETLIFY_SIZE;
