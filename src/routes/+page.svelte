@@ -2,7 +2,7 @@
 	import Concerts from '#lib/Concerts.svelte';
 	import Email from '#lib/Email.svelte';
 	import PhotoSlider from '#lib/PhotoSlider.svelte';
-	import { get_title_photos, zonerama_urls } from '#lib/zonerama.ts';
+	import { get_title_photos, netlify_urls } from '#lib/netlify.ts';
 </script>
 
 <img
@@ -49,6 +49,6 @@
 	<p class="text-grass">Vše po domluvě na <Email /></p>
 
 	<div class="mt-10">
-		<PhotoSlider urls={zonerama_urls(get_title_photos())} />
+		<PhotoSlider urls={netlify_urls(get_title_photos())} />
 	</div>
 </main>

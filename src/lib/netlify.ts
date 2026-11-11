@@ -1,24 +1,25 @@
-export const ZONERAMA_SIZE = {
-	small: '640x427',
-	medium: '1024x683',
-	large: '1296x864'
+export const NETLIFY_SIZE = {
+	small: '&w=640x&h=427',
+	medium: '&w=1024x&h=683',
+	large: '&w=1296x&h=864'
 };
 
-export type ZoneramaSize = keyof typeof ZONERAMA_SIZE;
+export type NetlifySize = keyof typeof NETLIFY_SIZE;
 
-export function zonerama_url(photo_id: string | number, size: ZoneramaSize = 'small') {
-	const size_str = ZONERAMA_SIZE[size];
-	return `https://eu.zonerama.com/photos/${photo_id}_${size_str}.jpg`;
+export function netlify_url(photo_id: string | number, size: NetlifySize = 'small') {
+	const size_str = NETLIFY_SIZE[size];
+	return `https://lastovenka.cz/.netlify/images?url=/${photo_id}${size_str}`;
 }
 
-export function zonerama_urls(photo_ids: (string | number)[], size: ZoneramaSize = 'small') {
-	return photo_ids.map((photo_id) => zonerama_url(photo_id, size));
+export function netlify_urls(photo_ids: (string | number)[], size: NetlifySize = 'small') {
+	return photo_ids.map((photo_id) => netlify_url(photo_id, size));
 }
 
 export const photos = {
 	band: [523063424, 523063450, 523063428, 523058019],
 	choir: [476843206, 523060247, 460496545, 476843219],
 	marie: [495085307]
+
 } satisfies Record<string, number[]>;
 
 export function get_title_photos(): number[] {
